@@ -29,7 +29,7 @@ def writeGeometries(ptgeom, freq, address):
 
 
 #START
-#Enter summarized table name of modernst_3(geocoding field) with count and x, y
+#Enter summarized table name of modernst_3(geocoded revised address field) with count per unique address and x, y
 table1 = "Sum_Output_4"
 #feature class name for the input which will be used for retrieved record numbers for each unique modern st
 featuremaster = "Export_Output_10ft_new_bounds"
