@@ -35,7 +35,7 @@ table1 = "Sum_Output_4"
 featuremaster = "Export_Output_10ft_new_bounds"
 #use spatial reference from feature input class
 spatialRef = arcpy.Describe(featuremaster).spatialReference
-arcpy.CreateFeatureclass_management (r"C:\Users\Nacho\Desktop\test.gdb","outputshape","POINT","","","",spatialRef)
+arcpy.CreateFeatureclass_management (r"C:\Users\Ignacio\Desktop\test.gdb","outputshape","POINT","","","",spatialRef)
 feature1 = "outputshape"
 arcpy.AddField_management(feature1, "FREQ", "SHORT")
 arcpy.AddField_management(feature1, "ADDRESS", "TEXT")
